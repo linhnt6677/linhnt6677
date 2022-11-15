@@ -72,15 +72,15 @@ canvas {
 .img {
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 65%;
   transform: translate(-50%, -50%);
   width: 420px;
   height: 420px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .img {
-    top: 65%!important;
+    top: 60%!important;
   }
 }
 
